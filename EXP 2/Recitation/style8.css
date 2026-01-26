@@ -1,0 +1,38 @@
+body {
+    background-color:blue;
+}
+.swan {
+    background-color: rgb(228, 205, 129);
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sub-item-link:link {
+    color: #0000FF;
+}
+
+.sub-item-link:visited {
+    color: #800080;
+}
+
+.sub-item-link:hover {
+    color: #FFA500;
+}
+
+.sub-item-link:focus {
+    outline: 2px solid #000000;
+}
+
+.sub-item-link:active {
+    color: #008000;
+} 

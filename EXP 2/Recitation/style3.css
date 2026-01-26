@@ -1,0 +1,78 @@
+body {
+    background-color:burlywood;
+}
+/* Basic layout */
+.container {
+  width: 500px;
+  margin: 50px auto;
+  background-color: beige;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Inputs basic styling */
+input,
+select,
+textarea {
+  padding: 8px;
+  border: 2px solid #ccc;
+  outline: none;
+}
+
+/* 11. Focus pseudo-class (list selector, correct order) */
+input:focus,
+textarea:focus {
+  border-color: blue;
+}
+
+/* 12. Invalid pseudo-class (list selector, correct order) */
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border-color: red;
+}
+
+/* 13. Valid pseudo-class (list selector, correct order) */
+input:valid,
+select:valid,
+textarea:valid {
+  border-color: green;
+}
+
+/* 14. Button hover */
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+/* Radio group styling */
+.radio-group {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* 15–17. Checked radio button styles */
+.radio-group input[type="radio"]:checked {
+  accent-color: green;        /* border + background */
+  box-shadow: 0 0 5px green;  /* shadow */
+}
+
+/* 18. Change label text color when radio is checked */
+.radio-group input[type="radio"]:checked + span,
+.radio-group input[type="radio"]:checked {
+  color: green;
+}
+
+/* 19. First input styled differently */
+input:first-of-type {
+  border-radius: 10px;
+}

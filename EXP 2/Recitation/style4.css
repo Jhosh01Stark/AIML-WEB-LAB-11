@@ -1,0 +1,34 @@
+body {
+    background-color: #efebeb;
+}
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+.color1 {
+    background-color: aquamarine;
+}
+.color2 {
+    background-color: rgb(255, 127, 127);
+}
+.color3 {
+    background-color: rgb(127, 255, 159);
+}
+.color4 {
+    background-color: rgb(161, 127, 255);
+}
+.color5 {
+    background-color: rgb(127, 255, 144);
+}
+.color-grid {
+    display: flex;              
+    justify-content: center;    
+    align-items: center; 
+    background-color: rgb(32, 28, 28);
+    
+    
+}
+h1 {
+    text-align: center;
+}

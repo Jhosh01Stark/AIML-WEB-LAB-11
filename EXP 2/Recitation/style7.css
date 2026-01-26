@@ -1,0 +1,25 @@
+.pricing-plans {
+    display: flex;
+    flex-wrap: wrap;
+}
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 0 200px;
+    border: 2px solid black;
+
+}
+.basic-plan {
+    order: 0;
+    padding: 5px;
+}
+.pro-plan {
+    order: 1;
+    flex-grow: 2;
+    padding: 5px;
+}
+.premium-plan {
+    order: 2;
+    padding: 5px;
+}

@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+}
+
+#nav-bar {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    padding: 80px 20px;
+}
+
+#video {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+}
+
+#form {
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    #header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #form {
+        flex-direction: column;
+    }
+}

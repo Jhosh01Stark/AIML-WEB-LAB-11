@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 30px;
+        }
+        h2 {
+            text-align: center;
+        }
+        .todo-container {
+            width: 300px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        input {
+            width: 75%;
+            padding: 5px;
+        }
+        button {
+            padding: 6px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 8px;
+            background: #eee;
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>To-Do List</h2>
+
+    <div class="todo-container">
+        <input type="text" id="taskInput" placeholder="Enter task">
+        <button onclick="addTask()">Add</button>
+
+        <ul id="taskList"></ul>
+    </div>
+
+    <!-- Linking External JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>

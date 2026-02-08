@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 4</title>
+</head>
+<body>
+
+    <button onclick="addParagraph()">Add Paragraph</button>
+
+    <script>
+        function addParagraph() {
+            let p = document.createElement("p");
+            p.innerText = "New paragraph added!";
+            document.body.appendChild(p);
+        }
+    </script>
+
+</body>
+</html>

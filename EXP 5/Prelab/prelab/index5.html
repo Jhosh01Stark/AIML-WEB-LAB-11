@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 7</title>
+</head>
+<body>
+
+    <input type="text" id="inputText" placeholder="Enter text">
+    <button onclick="showText()">Show</button>
+    <p id="output"></p>
+
+    <script>
+        function showText() {
+            let text = document.getElementById("inputText").value;
+            document.getElementById("output").innerText = text;
+        }
+    </script>
+
+</body>
+</html>

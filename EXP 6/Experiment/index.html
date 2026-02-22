@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Experiment 6</title>
+    <style>
+        body.dark {
+            background-color: black;
+            color: white;
+        }
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Contact Form</h2>
+
+<form id="contactForm">
+    <input type="text" id="email" placeholder="Enter Email">
+    <div id="emailError" class="error"></div>
+    <br>
+
+    <input type="text" id="phone" placeholder="Enter Phone Number">
+    <div id="phoneError" class="error"></div>
+    <br>
+
+    <input type="password" id="password" placeholder="Enter Password">
+    <div id="passwordError" class="error"></div>
+    <br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<h3 id="storedData"></h3>
+
+<button id="toggleTheme">Toggle Dark Mode</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
